@@ -90,7 +90,8 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+ /* outline-color: #d48a6e;*/
+  outline-color: #0085ca;
 }
 
 @media (min-width: 992px) {
