@@ -120,7 +120,7 @@
       <div class="row">
 
         <!-- Portfolio Item 1 -->
-        <div class="col-md-12 col-lg-12">
+        <div class="col-lg-12 col-md-12">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
@@ -414,9 +414,15 @@
                 <img class="img-fluid rounded mb-5" src="img/img_comics_rx.png" alt="">
 
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-1" align="left">A recommendation system to 'prescribe' comic books to read based on your existing comic book preferences.
+                  <ul> 
+                    <li align="left">Based on 500K actual comic book purchases obtained in partnership with a local comic book shop</li>
+                    <li align="left">Applied collaborative filtering to infer relationships between customers and their purchase choices</li>
+                    <li align="left">Utilized Spark as engine to apply alternating least squares matrix factorization</li>
+                    <li align="left">Deployed a Flask webapp for users to get recommendations based on their 3 favorite comic books, at www.comics-rx.com                    </li>  
+                  </ul>
+                  
+                  </p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-chevron-down fa-fw"></i>
                   Close Window
