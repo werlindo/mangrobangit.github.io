@@ -26,6 +26,9 @@
 
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
+  <link href="css/freelancer.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
 
 </head>
 
@@ -121,7 +124,7 @@
 
         <!-- Portfolio Item 1 -->
         <div class="col-lg-12 col-md-12">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioComicsRx">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-book-reader fa-3x"></i>
@@ -134,31 +137,32 @@
 
         <!-- Portfolio Item 2 -->
         <div class="col-md-12 col-lg-12">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioDoppel">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-images fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+            <img class="img-fluid" src="img/img_doppel.png" alt="">
           </div>
         </div>
 
         <!-- Portfolio Item 3 -->
         <div class="col-md-12 col-lg-12">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioAsovah">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-comment-dots fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+            <!-- <img class="img-fluid" src="img/portfolio/circus.png" alt=""> -->
+            <img class="img-fluid" src="img/img_asovah.png" alt="">
           </div>
         </div>
 
         <!-- Portfolio Item 4 -->
         <!-- <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioOutside">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
@@ -170,7 +174,7 @@
 
         <!-- Portfolio Item 5 -->
         <!-- <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioInside">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
@@ -227,23 +231,102 @@
         </div>
       </div> -->
 
+      <!--Carousel Wrapper-->
+      <div id="carousel-example-ab" class="carousel slide carousel-fade z-depth-1-half mb-5" data-ride="carousel">
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-ab" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-ab" data-slide-to="1"></li>
+            <li data-target="#carousel-example-ab" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner center-block" role="listbox" >
+            <div class="carousel-item center-block active">
+              <div class="view center-block">
+                  <!-- <img class="center-block center-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg"
+                  alt="First slide" > -->
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg"
+                  alt="First slide" >
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">This is the first title</h3>
+                <p>First text</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <!-- <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(115).jpg"
+                  alt="Second slide"> -->
+                  <img class="d-block w-100" src="img/bike_2.png"
+                  alt="Second slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">Thir is the second title</h3>
+                <p>Secondary text</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(108).jpg"
+                  alt="Third slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">This is the third title</h3>
+                <p>Third text</p>
+              </div>
+            </div>
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a class="carousel-control-prev" href="#carousel-example-ab" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-example-ab" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+
+
+
+
+
       <!-- Portfolio Grid Items -->
       <div class="row">
 
         <!-- Portfolio Item 1 -->
         <div class="col-md-6 col-lg-6">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioOutside">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-biking fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/game.png" alt="">
+            <!-- <img class="img-fluid" src="img/portfolio/game.png" alt=""> -->
+            <img class="img-fluid" src="img/bike_cover.png" alt="">
           </div>
         </div>
 
         <div class="col-md-6 col-lg-6">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioInside">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-gamepad fa-3x"></i>
@@ -386,8 +469,8 @@
   <!-- Portfolio Modals -->
 
   <!-- Portfolio Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
-    aria-labelledby="portfolioModal1Label" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="portfolioComicsRx" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioComicsRxLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -414,15 +497,25 @@
                 <img class="img-fluid rounded mb-5" src="img/img_comics_rx.png" alt="">
 
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-1" align="left">A recommendation system to 'prescribe' comic books to read based on your existing comic book preferences.
+                <p class="mb-3" align="left"><b>A recommendation system to 'prescribe' comic books to read based on your existing comic book preferences.</b>
                   <ul> 
                     <li align="left">Based on 500K actual comic book purchases obtained in partnership with a local comic book shop</li>
                     <li align="left">Applied collaborative filtering to infer relationships between customers and their purchase choices</li>
                     <li align="left">Utilized Spark as engine to apply alternating least squares matrix factorization</li>
-                    <li align="left">Deployed a Flask webapp for users to get recommendations based on their 3 favorite comic books, at www.comics-rx.com                    </li>  
+                    <li align="left">Deployed a Flask webapp for users to get recommendations based on their 3 favorite comic books, at <a href="http://www.comics-rx.com">www.comics-rx.com</a></li>  
                   </ul>
-                  
-                  </p>
+                </p>
+                <div class="container">
+                    <div class="row justify-content-center mb-4">
+                        <a class="btn btn-outline-dark btn-social mx-1" href="http://www.comics-rx.com">
+                          <i class="fab fa-chrome"></i>
+                        </a>
+                        <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/MangrobanGit/comics_rx">
+                          <i class="fab fa-github-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-chevron-down fa-fw"></i>
                   Close Window
@@ -436,8 +529,8 @@
   </div>
 
   <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
-    aria-labelledby="portfolioModal2Label" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="portfolioDoppel" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioDoppelLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -460,12 +553,30 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt="">
+                <!-- <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt=""> -->
+                <img class="img-fluid" src="img/img_doppel.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                <br>
+                <p class="mb-3" align="left"><b>A face recognition app for customer engagement.</b>
+                  <ul> 
+                    <li align="left">Utilized open-source Google Images scraper to obtain 5K images for training data</li>
+                    <li align="left">Implemented transfer learning using Tensorflow and MobileNetV2 to extract image features for classification</li>
+                    <li align="left">Applied Random Forest as final classification model</li>
+                    <li align="left">Deployed as Flask webapp for a fictional case study promoting Hobbs and Shaw, a 2019 action film, at <a href="www.doppeldoya.com">www.doppeldoya.com</a></li>  
+                  </ul>
+                </p>
+                <div class="container">
+                    <div class="row justify-content-center mb-4">
+                        <a class="btn btn-outline-dark btn-social mx-1" href="http://www.doppeldoya.com">
+                          <i class="fab fa-chrome"></i>
+                        </a>
+                        <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/MangrobanGit/doppel_do_ya">
+                          <i class="fab fa-github-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-chevron-down fa-fw"></i>
                   Close Window
                 </button>
@@ -478,8 +589,8 @@
   </div>
 
   <!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
-    aria-labelledby="portfolioModal3Label" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="portfolioAsovah" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioAsovahLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -502,12 +613,29 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
+                <!-- <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt=""> -->
+                <img class="img-fluid rounded mb-5" src="img/img_asovah.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
+
+                <p class="mb-3" align="left"><b>A characterization of presidential nominees through Game of Thrones.</b>
+                  <ul> 
+                    <li align="left">Accessed the Reddit API to archive thousands of comments about Game of Thrones and politics</li>
+                    <li align="left">Applied a CountVectorizer to attribute comments to nominees or characters</li>
+                    <li align="left">Engineered features using Gensim and clustered using unsupervised learning to map characters to nominees</li>
+                    <li align="left">Scored using cosine similarity to map characters to nominees to make a more compelling model</li>  
+                  </ul>
+                </p>
+                <div class="container">
+                  <div class="row justify-content-center mb-4">
+                      <a class="btn btn-outline-dark btn-social mx-1" href="https://towardsdatascience.com/a-song-of-vice-and-higher-characterizing-presidential-nominees-through-game-of-thrones-5dc685f6c1dd">
+                        <i class="fab fa-medium-m"></i>
+                      </a>
+                      <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/MangrobanGit/a-song-of-vice-and-higher">
+                        <i class="fab fa-github-alt"></i>
+                      </a>
+                  </div>
+                </div>
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-chevron-down fa-fw"></i>
                   Close Window
                 </button>
@@ -520,8 +648,8 @@
   </div>
 
   <!-- Portfolio Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
-    aria-labelledby="portfolioModal4Label" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="portfolioOutside" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioOutsideLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -546,8 +674,21 @@
                 <!-- Portfolio Modal - Image -->
                 <!-- <img class="img-fluid rounded mb-5" src="img/portfolio/game.png" alt=""> -->
 
+                <!-- Portfolio Modal - Text -->
+                <!-- <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
+                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p> -->
+                  <p class="mb-3" align="left">I like to do things outside! Some of them are:</b>
+                    <ul> 
+                      <li align="left">Biking</li>
+                      <li align="left">Tennis</li>
+                      <li align="left">Sporting Events</li>
+                      <li align="left">Music</li>
+                      
+                    </ul>
+                </p>
                 <!--Carousel Wrapper-->
-                <div id="carousel-example-1" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+                <div id="carousel-example-1" class="carousel slide carousel-fade z-depth-1-half mb-5" data-ride="carousel">
                   <!--Indicators-->
                   <ol class="carousel-indicators">
                     <li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
@@ -556,7 +697,7 @@
                   </ol>
                   <!--/.Indicators-->
                   <!--Slides-->
-                  <div class="carousel-inner" role="listbox">
+                  <div class="carousel-inner" role="listbox" style=" width:10%; height: 500px !important;">
                     <div class="carousel-item active">
                       <div class="view">
                         <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg"
@@ -571,7 +712,9 @@
                     <div class="carousel-item">
                       <!--Mask color-->
                       <div class="view">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(115).jpg"
+                        <!-- <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(115).jpg"
+                          alt="Second slide"> -->
+                          <img class="d-block w-100" src="img/bike_2.png"
                           alt="Second slide">
                         <div class="mask rgba-black-light"></div>
                       </div>
@@ -608,11 +751,6 @@
                 <!--/.Carousel Wrapper-->
 
 
-
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-chevron-down fa-fw"></i>
                   Close Window
@@ -626,8 +764,8 @@
   </div>
 
   <!-- Portfolio Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
-    aria-labelledby="portfolioModal5Label" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="portfolioInside" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioInsideLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -662,7 +800,7 @@
                   </ol>
                   <!--/.Indicators-->
                   <!--Slides-->
-                  <div class="carousel-inner" role="listbox">
+                  <div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
                     <div class="carousel-item active">
                       <div class="view">
                         <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg"
@@ -713,13 +851,20 @@
                 </div>
                 <!--/.Carousel Wrapper-->
 
-
-
-
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+                <!-- <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
                   nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p> -->
+
+                <p class="mb-3" align="left">I like to do things inside! Some of them are:</b>
+                    <ul> 
+                      <li align="left">Games!</li>
+                      <li align="left">Activities!</li>
+                      <li align="left">Trivia!</li>
+                      <li align="left">Music!</li>
+                      
+                    </ul>
+                </p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-chevron-down fa-fw"></i>
                   Close Window
