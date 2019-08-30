@@ -3,8 +3,8 @@
   }
   */
   .carousel-inner{
-    height:60%;
-    width:75%;
+    height:auto;
+    width:60%;
     margin: 0 auto;
   }
   /* max-height: 400x !important; */
