@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Resume - Werlindo Mangrobang</title>
+  <title>Werlindo Mangrobang</title>
 
 
   <!-- Bootstrap core CSS -->
@@ -18,17 +18,19 @@
 
   <!-- Custom fonts for this theme -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Barlow|Lato|Montserrat&display=swap" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-    type="text/css">
-
-
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
   <link href="css/freelancer.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-
+  <link href="css/bootstrap-social.css" rel="stylesheet">
+ 
+  <style>
+      @import url('https://fonts.googleapis.com/css?family=Barlow|Lato|Montserrat&display=swap');
+  </style>
 
 </head>
 
@@ -170,9 +172,25 @@
             </span></span>
           </div>
             <!-- <img class="img-fluid" src="img/portfolio/circus.png" alt=""> -->
-            <img class="img-fluid" src="img/img_asovah.png" alt="">
+            <img class="img-fluid"  style="border:1px solid darkgray" src="img/img_asovah.png" alt="">
           </div>
         </div>
+
+        <!-- Portfolio Item  -->
+        <div class="col-md-12 col-lg-12">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioNFL">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <span class="caption text-white">
+                      <span class="caption-content text-center"><h2>4-Year AV of Drafted NFL Player</h2>
+                  <div class="portfolio-item-caption-content text-center text-white">
+                  <i class="fas fa-football-ball fa-3x"></i>
+                </div>
+              </span></span>
+            </div>
+              <!-- <img class="img-fluid" src="img/portfolio/circus.png" alt=""> -->
+              <img class="img-fluid"  style="border:1px solid darkgray" src="img/img_av.gif" alt="">
+            </div>
+          </div>
 
         <!-- Portfolio Item 4 -->
         <!-- <div class="col-md-6 col-lg-4">
@@ -271,7 +289,7 @@
                   alt="First slide" >
                 <div class="mask rgba-black-light"></div>
               </div>
-              <div class="carousel-caption">
+              <div class="carousel-caption box_textshadow">
                 <h3 class="h3-responsive">Biking!</h3>
                 <p>I completed the Seattle to Portland Ride in 2019!</p>
               </div>
@@ -285,7 +303,7 @@
                   alt="Second slide">
                 <div class="mask rgba-black-light"></div>
               </div>
-              <div class="carousel-caption">
+              <div class="carousel-caption box_textshadow">
                 <h3 class="h3-responsive">Biking!</h3>
                 <p>I love biking with my family as well!</p>
               </div>
@@ -300,7 +318,7 @@
                   alt="Third slide">
                 <div class="mask rgba-black-light"></div>
               </div>
-              <div class="carousel-caption">
+              <div class="carousel-caption box_textshadow">
                 <h3 class="h3-responsive">Root for the home team!</h3>
                 <p>Go Mariners!</p>
               </div>
@@ -315,7 +333,7 @@
                     alt="Fourth slide">
                   <div class="mask rgba-black-light"></div>
                 </div>
-                <div class="carousel-caption">
+                <div class="carousel-caption box_textshadow">
                   <h3 class="h3-responsive">University of Washington</h3>
                   <p>Go Dawgs!</p>
                 </div>
@@ -330,7 +348,7 @@
                     alt="Fifth slide">
                   <div class="mask rgba-black-light"></div>
                 </div>
-                <div class="carousel-caption">
+                <div class="carousel-caption box_textshadow">
                   <h3 class="h3-responsive">Whirlyball!?</h3>
                   <p>Is a blast!</p>
                 </div>
@@ -345,7 +363,7 @@
                     alt="Sixth slide">
                   <div class="mask rgba-black-light"></div>
                 </div>
-                <div class="carousel-caption">
+                <div class="carousel-caption box_textshadow">
                   <h3 class="h3-responsive">Escape Room!</h3>
                   <p>Puzzles are fun!</p>
                 </div>
@@ -360,7 +378,7 @@
                     alt="seventh slide">
                   <div class="mask rgba-black-light"></div>
                 </div>
-                <div class="carousel-caption">
+                <div class="carousel-caption box_textshadow">
                   <h3 class="h3-responsive">Live Music</h3>
                   <p>Love summer concert season!</p>
                 </div>
@@ -499,16 +517,16 @@
 
         <!-- Footer Location -->
         <!-- <div class="col-lg-6 mb-5 mb-lg-0"> -->
-        <div class="col-lg-6">
-          <h4 class="text-center text-uppercase mb-4">Email Me</h4>
+        <!-- <div class="col-lg-6">
+          <h4 class="text-center text-uppercase mb-4">Contact</h4>
           <a class="btn btn-outline-light btn-social mx-1" href="mailto:werlindo.mangrobang@gmail.com">
             <i class="fas fa-at"></i>
           </a>
-        </div>
+        </div> -->
 
         <!-- Footer Social Icons -->
         <!-- <div class="col-lg-4 mb-5 mb-lg-0"> -->
-        <div class="col-lg-6">
+        <div class="col-lg-12">
           <h4 class="text-center text-uppercase mb-4">Let's Connect</h4>
           <!-- <a class="btn btn-outline-light btn-social mx-1" href="#">
             <i class="fab fa-fw fa-facebook-f"></i>
@@ -516,15 +534,22 @@
           <!-- <a class="btn btn-outline-light btn-social mx-1" href="#">
             <i class="fab fa-fw fa-twitter"></i>
           </a> -->
-          <a class="btn btn-outline-light btn-social mx-1" href="https://linkedin.com/in/werlindo/">
+          <a class="btn btn-outline-light btn-google mx-1" href="mailto:werlindo.mangrobang@gmail.com" title="Email">
+              <i class="fas fa-at"></i>
+          </a>
+          <a class="btn btn-outline-light btn-linkedin mx-1" href="https://linkedin.com/in/werlindo/" title="LinkedIn">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/MangrobanGit">
+          <a class="btn btn-outline-light btn-github mx-1" href="https://github.com/MangrobanGit" title="GitHub">
             <i class="fab fa-github-alt"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://medium.com/@werlindo">
+          <a class="btn btn-outline-light btn-github mx-1" href="https://medium.com/@werlindo" title="Medium">
             <i class="fab fa-medium-m"></i>
           </a>
+          <br><br>
+          <i class="fas fa-copyright"></i>
+          <!-- </a> -->
+            <small>2019 by Werlindo Mangrobang.<br></small>
         </div>
 
         <!-- Footer About Text -->
@@ -534,15 +559,24 @@
             <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
         </div> -->
 
+        <!-- <div class="col-lg-4 align-items-flex-end"> -->
+          <!-- <h4 class="text-center text-uppercase mb-4">Contact</h4> -->
+          <!-- <a class="btn btn-outline-light btn-social mx-1" href="mailto:werlindo.mangrobang@gmail.com"> -->
+            <!-- <i class="fas fa-copyright"></i> -->
+          <!-- </a> -->
+            <!-- <small>2019 by Werlindo Mangrobang.<br></small> -->
+          
+        <!-- </div>  -->
+
       </div>
     </div>
   </footer>
 
   <!-- Copyright Section -->
-  <section class="copyright py-4 text-center text-white">
-    <div class="container">
+    <section class="copyright py-4 text-center text-white bg-primary">
+    <!-- <div class="container">
       <small>Copyright &copy; Werlindo Mangrobang 2019</small>
-    </div>
+    </div> -->
   </section>
 
   <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
@@ -588,15 +622,15 @@
                     <li align="left">Based on 500K actual comic book purchases obtained in partnership with a local comic book shop</li>
                     <li align="left">Applied collaborative filtering to infer relationships between customers and their purchase choices</li>
                     <li align="left">Utilized Spark as engine to apply alternating least squares matrix factorization</li>
-                    <li align="left">Deployed a Flask webapp for users to get recommendations based on their 3 favorite comic books, at <a href="http://www.comics-rx.com">www.comics-rx.com</a></li>  
+                    <li align="left">Deployed a Flask Web App for users to get recommendations based on their 3 favorite comic books, at <a href="http://www.comics-rx.com">www.comics-rx.com</a></li>  
                   </ul>
                 </p>
                 <div class="container">
                     <div class="row justify-content-center mb-4">
-                        <a class="btn btn-outline-dark btn-social mx-1" href="http://www.comics-rx.com">
+                        <a class="btn btn-outline-dark btn-social mx-1" href="http://www.comics-rx.com" title="Web App">
                           <i class="fab fa-chrome"></i>
                         </a>
-                        <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/MangrobanGit/comics_rx">
+                        <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/MangrobanGit/comics_rx" title="GitHub">
                           <i class="fab fa-github-alt"></i>
                         </a>
                     </div>
@@ -634,7 +668,7 @@
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
                   <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
+                    <i class="fas fa-chevron-down"></i>
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
@@ -648,15 +682,15 @@
                     <li align="left">Utilized open-source Google Images scraper to obtain 5K images for training data</li>
                     <li align="left">Implemented transfer learning using Tensorflow and MobileNetV2 to extract image features for classification</li>
                     <li align="left">Applied Random Forest as final classification model</li>
-                    <li align="left">Deployed as Flask webapp for a fictional case study promoting Hobbs and Shaw, a 2019 action film, at <a href="www.doppeldoya.com">www.doppeldoya.com</a></li>  
+                    <li align="left">Deployed as Flask Web App for a fictional case study promoting Hobbs and Shaw, a 2019 action film, at <a href="http://  www.doppeldoya.com">www.doppeldoya.com</a></li>  
                   </ul>
                 </p>
                 <div class="container">
                     <div class="row justify-content-center mb-4">
-                        <a class="btn btn-outline-dark btn-social mx-1" href="http://www.doppeldoya.com">
+                        <a class="btn btn-outline-dark btn-social mx-1" href="http://www.doppeldoya.com" title="Web App">
                           <i class="fab fa-chrome"></i>
                         </a>
-                        <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/MangrobanGit/doppel_do_ya">
+                        <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/MangrobanGit/doppel_do_ya" title="GitHub">
                           <i class="fab fa-github-alt"></i>
                         </a>
                     </div>
@@ -694,13 +728,13 @@
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
                   <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
+                    <i class="fas fa-chevron-down"></i>
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
                 <!-- <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt=""> -->
-                <img class="img-fluid rounded mb-5" src="img/img_asovah.png" alt="">
+                <img class="img-fluid rounded mb-5"  style="border:1px solid black" src="img/img_asovah.png" alt="">
                 <!-- Portfolio Modal - Text -->
 
                 <p class="mb-3" align="left"><b>A characterization of presidential nominees through Game of Thrones.</b>
@@ -713,10 +747,10 @@
                 </p>
                 <div class="container">
                   <div class="row justify-content-center mb-4">
-                      <a class="btn btn-outline-dark btn-social mx-1" href="https://towardsdatascience.com/a-song-of-vice-and-higher-characterizing-presidential-nominees-through-game-of-thrones-5dc685f6c1dd">
+                      <a class="btn btn-outline-dark btn-social mx-1" href="https://towardsdatascience.com/a-song-of-vice-and-higher-characterizing-presidential-nominees-through-game-of-thrones-5dc685f6c1dd" title="Medium">
                         <i class="fab fa-medium-m"></i>
                       </a>
-                      <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/MangrobanGit/a-song-of-vice-and-higher">
+                      <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/MangrobanGit/a-song-of-vice-and-higher" title="GitHub">
                         <i class="fab fa-github-alt"></i>
                       </a>
                   </div>
@@ -732,6 +766,68 @@
       </div>
     </div>
   </div>
+
+  <!-- Portfolio Modal -->
+  <div class="portfolio-modal modal fade" id="portfolioNFL" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioNFLLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">4-Year AV of Drafted NFL Player</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <!-- <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt=""> -->
+                <img class="img-fluid rounded mb-5"  style="border:1px solid black" src="img/img_av.gif" alt="">
+                <!-- Portfolio Modal - Text -->
+
+                <p class="mb-3" align="left"><b>Predict First 4 Years of Accumulated AV for a Drafted NFL Player.</b>
+                  <ul> 
+                    <li align="left">National Football League teams (American Football) have an annual draft of college players</li>
+                    <li align="left">How can teams maximize the value they get out of their draft picks?</li>
+                    <li align="left">Multiple linear regression to predict Approximate Value of a player</li>
+                  </ul>
+                </p>
+                <div class="container">
+                  <div class="row justify-content-center mb-4">
+                      <a class="btn btn-outline-dark btn-social mx-1" href="https://mangrobangit.github.io/DDP/slides/index.html#/slide-1" title="HTML Slides">
+                        <i class="fas fa-chalkboard"></i>
+                      </a>
+                     <a class="btn btn-outline-dark btn-social mx-1" href=" https://mangrobang.shinyapps.io/Project_Draft_AV/" title="Shiny App">
+                        <i class="fab fa-chrome"></i>
+                      </a>
+                      <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/MangrobanGit/DDP" title="GitHub">
+                        <i class="fab fa-github-alt"></i>
+                      </a>
+                  </div>
+                </div>
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-chevron-down fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Portfolio Modal 4 -->
   <div class="portfolio-modal modal fade" id="portfolioOutside" tabindex="-1" role="dialog"
@@ -753,7 +849,7 @@
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
                   <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
+                    <i class="fas fa-chevron-down"></i>
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
@@ -869,7 +965,7 @@
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
                   <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
+                    <i class="fas fa-chevron-down"></i>
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
@@ -986,7 +1082,7 @@
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
                   <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
+                    <i class="fas fa-chevron-down"></i>
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
