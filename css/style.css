@@ -38,3 +38,7 @@
 
 
 /* img { width: 50%; margin: auto; } */
+
+.box_textshadow {
+  text-shadow: 1px 1px 0px #2c3e50; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
