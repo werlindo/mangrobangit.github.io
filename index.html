@@ -202,6 +202,41 @@
           </div>
         </div>
 
+        <!-- Portfolio Item  -->
+        <div class="col-md-12 col-lg-12">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioPitch">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <span class="caption text-white">
+                <span class="caption-content text-center">
+                  <h2>Predicting Pitches</h2>
+                  <div class="portfolio-item-caption-content text-center text-white">
+                    <i class="fas fa-football-ball fa-3x"></i>
+                  </div>
+                </span></span>
+            </div>
+            <!-- <img class="img-fluid" src="img/portfolio/circus.png" alt=""> -->
+            <img class="img-fluid" style="border:1px solid darkgray" src="img/pitches.jpg" alt="">
+          </div>
+        </div>
+
+        <!-- Leave this off for now. -->
+        <!-- Portfolio Item  -->
+<!--         <div class="col-md-12 col-lg-12">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioSoccer">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <span class="caption text-white">
+                <span class="caption-content text-center">
+                  <h2>Soccer Analytics</h2>
+                  <div class="portfolio-item-caption-content text-center text-white">
+                    <i class="fas fa-football-ball fa-3x"></i>
+                  </div>
+                </span></span>
+            </div>
+            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+            <img class="img-fluid" style="border:1px solid darkgray" src="img/dribbling.jpg" alt="">
+          </div>
+        </div> -->
+
         <!-- Portfolio Item 4 -->
         <!-- <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioOutside">
@@ -753,7 +788,7 @@
                 <img class="img-fluid rounded mb-5" style="border:1px solid black" src="img/img_asovah.png" alt="">
                 <!-- Portfolio Modal - Text -->
 
-                <p class="mb-3" align="left"><b>A characterization of presidential nominees through Game of Thrones.</b>
+                <p class="mb-3" align="left"><b>A characterization of 2020 presidential nominees through Game of Thrones.</b>
                   <ul>
                     <li align="left">Accessed the Reddit API to archive thousands of comments about Game of Thrones and
                       politics</li>
@@ -837,9 +872,10 @@
                       href=" https://mangrobang.shinyapps.io/Project_Draft_AV/" title="Shiny App">
                       <i class="fas fa-laptop"></i>
                     </a>
-                    <a class="btn btn-outline-dark btn-github mx-1" href="https://github.com/MangrobanGit/DDP"
-                      title="GitHub">
-                      <i class="fab fa-github-alt"></i>
+                    <!-- 20220216 Need to find/replace the correct repo -->
+                    <!-- <a class="btn btn-outline-dark btn-github mx-1" href="https://github.com/MangrobanGit/DDP" -->
+                      <!-- title="GitHub"> -->
+                      <!-- <i class="fab fa-github-alt"></i> -->
                     </a>
                   </div>
                 </div>
@@ -855,6 +891,73 @@
     </div>
   </div>
 
+<!-- Portfolio Modal -->
+<div class="portfolio-modal modal fade" id="portfolioPitch" tabindex="-1" role="dialog"
+aria-labelledby="portfolioNFLLabel" aria-hidden="true">
+<div class="modal-dialog modal-xl" role="document">
+  <div class="modal-content">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-chevron-down"></i>
+      </span>
+    </button>
+    <div class="modal-body text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <!-- Portfolio Modal - Title -->
+            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Predicting MLB Pitches
+            </h2>
+            <!-- Icon Divider -->
+            <div class="divider-custom">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Modal - Image -->
+            <!-- <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt=""> -->
+            <img class="img-fluid rounded mb-5" style="border:1px solid black" src="img/pitches.jpg" alt="">
+            <!-- Portfolio Modal - Text -->
+
+            <p class="mb-3" align="left"><b>Use data available via MLB Stats API to develop models to identify baseball pitches.</b>
+              <ul>
+                <li align="left">Accessed the MLB Stats API to get individual pitch data (e.g. spin rates, location)</li>
+                <li align="left">Explored various classification algorithms to create models to identify pitch based on it's characteristics</li>
+                <li align="left">Explored various classification algorithms to create models to predict the next pitch</li>
+                <li align="left">Based on Seattle Mariners 2018 Regular Season data (single team only due to need for expediency and limited resources)</li>
+              </ul>
+            </p>
+            <div class="container">
+              <div class="row justify-content-center mb-4">
+                <a class="btn btn-outline-dark btn-microsoft mx-1"
+                  href="https://docs.google.com/presentation/d/1J-Z5fk1yK_eDGFtXMvaUAYLYH8LSZaeo9yV3E9rfO3g/edit?usp=sharing" title="Google Slides">
+                  <i class="fas fa-chalkboard"></i>
+                </a>
+                <a class="btn btn-outline-dark btn-github mx-1" 
+                  href="https://github.com/MangrobanGit/pitch_ds_baseball_analytics"
+                  title="GitHub">
+                <i class="fab fa-github-alt"></i>
+                </a>                
+                <!-- 20220216 Need to find/replace the correct repo -->
+                <!-- <a class="btn btn-outline-dark btn-github mx-1" href="https://github.com/MangrobanGit/DDP" -->
+                  <!-- title="GitHub"> -->
+                  <!-- <i class="fab fa-github-alt"></i> -->
+                </a>
+              </div>
+            </div>
+            <button class="btn btn-primary" href="#" data-dismiss="modal">
+              <i class="fas fa-chevron-down fa-fw"></i>
+              Close Window
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
   <!-- Portfolio Modal 4 -->
   <div class="portfolio-modal modal fade" id="portfolioOutside" tabindex="-1" role="dialog"
