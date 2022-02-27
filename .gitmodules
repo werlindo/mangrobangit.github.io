@@ -1,0 +1,3 @@
+[submodule "projects/nfl_draft_av"]
+	path = projects/nfl_draft_av
+	url = https://github.com/MangrobanGit/nfl_draft_av
